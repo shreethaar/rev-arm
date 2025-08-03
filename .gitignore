@@ -1,0 +1,89 @@
+# C Learning Repository .gitignore
+
+# Compiled binaries (no extension)
+# This covers most C binaries that don't have file extensions
+*
+!*/
+!*.*
+
+# Specific binary patterns for your weekly directories
+week*/[0-9]*_*
+week*/hello*
+week*/test*
+week*/program*
+week*/main
+week*/a.out
+
+# Object files
+*.o
+*.obj
+
+# Libraries
+*.lib
+*.a
+*.so
+*.so.*
+*.dylib
+
+# Executables (Windows)
+*.exe
+*.com
+*.bat
+*.cmd
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Compiler-generated files
+*.i
+*.ii
+*.s
+*.asm
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+core
+*.core
+
+# Build directories
+build/
+bin/
+obj/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Autotools
+Makefile.in
+configure
+config.log
+config.status
+autom4te.cache/
+
+# GDB history
+.gdb_history
+
+# Valgrind output
+*.valgrind
+
+# Cross-compilation binaries (ARM64, etc.)
+*_arm64
+*_aarch64
+*_armv7
