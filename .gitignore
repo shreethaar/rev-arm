@@ -40,8 +40,8 @@ week*/a.out
 # Compiler-generated files
 *.i
 *.ii
-*.s
-*.asm
+
+
 
 # IDE and editor files
 .vscode/
